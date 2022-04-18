@@ -21,7 +21,7 @@
 - uses: alexgocariq/action-trigger-test-wait@v1.1
   name: Trigger job and wait
   with:
-    user: softknife2021
+    user: alexgocariq
     token: ${{secrets.GH_AUTH_TOKEN}}
     repo: actions-play
     workflow: pr_build
