@@ -9,7 +9,7 @@ jobs:
       - name: Run Action
         uses: ./
         with:
-          user: softknife2021
+          user: alexgocariq
           token: ${{secrets.GH_AUTH_TOKEN}}
           repo: actions-play
           workflow: pr_build
